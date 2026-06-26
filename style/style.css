@@ -1,6 +1,10 @@
 * {
     margin: 0px;
     font-family: Poppins;
+
+}
+p{
+    font-size: 14px;
 }
 /* HEADER */
 header {
@@ -56,51 +60,29 @@ padding: 25px 0px;
 .services-nos{
     margin: auto;
     text-align: center;
-    padding: 50px;
-    
-}
-.services-nos,h3,p {
-    padding: 25px;
-
-}
-p{
-padding: 0px 30px;
-margin: 10px;
-}
-.conteneur{
-    display:flex;
-    
+   padding: 5px;
     
 }
 .services-nous {
-    display: flex;
-    padding: 50px;
+    display: flex; 
     margin: auto;
-    padding-left: 125px;
+    justify-content: space-around;
 }
-.abd{
+.services-nous p{
+padding-top: 5px;
+}
+
+.icone{
    height: 125px;
    width:  125px;
    background-color:  rgb(136, 136, 135);
    border-radius: 100px;
    margin: auto;
-}
-.abdou{
-    height:  125px;
-    width:  125px;
-    background-color:  rgb(136, 136, 135);
-    border-radius: 100px;
-    margin: auto;
-}
-.rdb{
-    height:  125px;
-    width:  125px;
-    background-color: rgb(136, 136, 135);
-    border-radius: 100px;
-    margin: auto; 
-}
-/* SECTION 2 */
+} 
+
+/* SECTION 3 */
 .a-propos{
+    
     text-align: center;
     margin: auto;
     width: 80%;
@@ -110,36 +92,50 @@ margin: 10px;
     display: flex;
     margin: auto;
    text-align: left;
+   justify-content: space-around;
 }
+
 .bordure-a-propos {
-    height: 400px;
-    width: 300%;
+    
+    max-width:1200px;
+    width: 50%;
     /* border: 2px solid black; */
     background-color: rgb(136, 136, 135);
 }
-h2{
-    padding: 60px;
+.bordure p{
+    padding: 0px 35px;
+
 }
-/* SECTION 3 */
+.bordure{
+    
+    max-width:1200px;
+    width: 50%;
+}
+h2{
+    padding: 30px;
+}
+h4{
+    padding: 35px;
+}
+/* SECTION 4 */
 .contacts-nos{
     text-align: center;
     /* display: flex; */
     width: 80%;
     margin: auto;
-    height: 400px;
+    height: 300px;
 }
 .contact-les{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
 }
 .contact-les a{
     padding: 2px;
     color: blue;
-    padding-left: 35px;
-}
+}   
 .contact-les h3{
-    padding: 10px;
+    padding: 2px;
 }
 /* FOOTER */
 footer{
@@ -154,6 +150,3 @@ footer{
     padding: 30px;
     font-size: 10px;
 }
-
-
-
